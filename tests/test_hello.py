@@ -1,7 +1,6 @@
-# test the hello function
-
-from merrily.hello import hello
+#
+from merrily import hello
 
 
 def test_hello():
-    assert hello() == "Hello, world!"
+    assert hello.hello() == "Hello, world!"
